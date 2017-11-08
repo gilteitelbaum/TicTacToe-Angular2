@@ -1,0 +1,22 @@
+<div class="holdApp">
+    <h3>{{getCurrentPlayer()}}</h3>
+    <h2>{{winner}}</h2>
+    <table class="board">
+        <tr>
+            <cell id="1_1" (onCellClicked)="gameStatusCheck($event)"></cell>
+            <cell id="1_2" (onCellClicked)="gameStatusCheck($event)"></cell>
+            <cell id="1_3" (onCellClicked)="gameStatusCheck($event)"></cell>
+        </tr>
+        <tr>
+            <cell id="2_1" (onCellClicked)="gameStatusCheck($event)"></cell>
+            <cell id="2_2" (onCellClicked)="gameStatusCheck($event)"></cell>
+            <cell id="2_3" (onCellClicked)="gameStatusCheck($event)"></cell>
+        </tr>
+        <tr>
+            <cell id="3_1" (onCellClicked)="gameStatusCheck($event)"></cell>
+            <cell id="3_2" (onCellClicked)="gameStatusCheck($event)"></cell>
+            <cell id="3_3" (onCellClicked)="gameStatusCheck($event)"></cell>
+        </tr>
+    </table> 
+</div>       
+    
